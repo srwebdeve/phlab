@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 95vw;
+    height: 220vh;
+    background-image: url(paper.png);
+    background-size: 3px;
+}
+.logooo{
+    box-shadow: 5px 5px 5px black, -5px -5px 5px white;
+}
+#top
+{
+    height: 60px;
+    background-color: none;
+}
+#menu
+{
+    height: 25px;
+    width: 30px;
+    background-color: none;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    cursor: pointer;
+}
+.a,.b,.c
+{
+    position: relative;
+    transition: 1s;
+    width: 100%;
+    height: 5px;
+    border-radius: 2px;
+    background-color: rgb(36, 36, 36);
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+.b,.c{margin-top: 4px;} 
+#top > img
+{
+    position: relative;
+    top: 5px;
+    left: 5px; 
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(199, 199, 199);
+}
+
+#temp
+{
+    width: 200px;
+    height: 100vh;
+    background-image: linear-gradient( rgb(221, 255, 142), rgb(49, 255, 60) );
+    position: absolute;
+    top: -200vh;
+    right: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(150, 150, 150) ,  10px 10px 5px black;
+} 
+
+#close
+{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: -25px;
+    right: 30px;
+    cursor: pointer;
+}
+#input
+{
+    float: right;
+    margin-right: 10px;
+    font-size: 2rem;
+    background-color: rgb(214, 214, 214);
+    border-radius: 50px;
+    height: 50px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    right: 80px;
+    top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 5px black, -5px -5px 5px white;
+}
+#main
+{
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#math
+{
+    word-spacing: 3px;
+    line-height: 30px;
+    font-family:Papyrus;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255),-1px -1px 2px black; 
+}
+.as
+{
+    color: rgb(37, 37, 37);
+    font-size: 30px;
+}
+#pannal > p >input
+{
+  border-radius: 10px;
+  font-size: 1.2rem;
+  width: 100px;
+  text-align: center;
+  
+}
+#pannal > div >input
+{
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  width: 100px;
+  
+  text-align: center;
+  
+}
+#pannal
+{ 
+    background-image:linear-gradient( rgb(221, 255, 142), rgb(49, 255, 60) );
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 2.5vw;
+    position: absolute;
+    width: 90vw;
+    top: -200vh;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow: 0 0 5px white , 10px 10px 5px black;
+
+    
+}
+.pra
+{
+    padding: 10px;
+    font-size: 1.2rem;
+    color: rgb(22, 22, 22); 
+    cursor: pointer;
+}
+#cros
+{
+    position: relative;
+    left: 40vw;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+
+}
+.he
+{
+    font-size: 30px;
+    color: rgb(22, 22, 22);
+    margin-top: -20px;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+.ar
+{
+    cursor: auto;
+}
+/* #setting
+{
+    backdrop-filter: blur(50px);
+    background: blur(40px);
+} */
+
+.mmn
+{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+  
+#sattingp
+{
+    width: 90%;
+    height: auto;
+    background-color: rgb(94, 94, 94);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    left: -200vw;
+    transition: 1s;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 0 5px rgb(194, 194, 194), 10px 10px 5px black;
+    border-radius: 10px;
+    
+}
+#crsttn
+{
+    position: relative;
+    left: 35vw;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
+.az
+{
+    font-size: 20px;
+}
+.aa
+{
+    margin-bottom: 20px;
+}
+.con
+{
+    width: 98vw;
+    height: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    position: absolute;
+    transition: 1s;
+    top: 250px;
+    left: -150vw;
+}
+#info
+{
+    width: 95%;
+    height: auto;
+    background-color: rgb(97, 97, 97);
+    border-radius: 10px;
+    box-shadow: 0 0 5px white , 10px 10px 5px black;
+    position: absolute;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+    transition: 1s;
+
+
+}
+.item
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+.item div
+{
+    background-color: rgb(190, 190, 190);
+    padding: 5px 4px;
+    margin:  0 5px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black , -5px -5px 5px rgb(255, 255, 255);
+    cursor: pointer;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.social
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+.social img
+{
+    
+  background-color: white;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+}
+.social a
+{
+  margin: 0 8px;
+}
+#crsinfo
+{
+    border-radius: 15px; 
+    font-size: 20px;
+    position: absolute; right: 3vw;
+    margin-left: 5px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.scrn
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 3px black;
+}
+.scrn2
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 3px black;
+}
